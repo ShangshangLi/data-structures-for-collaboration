@@ -1,12 +1,18 @@
 {
+    "name":"Main Menu",
     "function":[
         {
             "name":"search",
             "type":[
                 {"name":"contacts"},
+                
+                
+              
                 {"name":"conversations"},
                 {"name":"links"},
-                {"name":"photos"}
+                {"name":"photos"},
+                 {"name":"cancel"}
+
             ]
         },
         {
@@ -21,6 +27,10 @@
             "name":"new message",
             "function":[
                 {"name":"to"},
+                {"name":"plus sign"},
+              
+               
+
                 {
                     "name":"message",
                     "type":[
@@ -33,7 +43,8 @@
                         "scan text"
                     ]
                 },
-                {"name":"cancel"}]
+                {"name":"cancel"}
+                ]
         },
         {
             "name":"conversations",
@@ -42,22 +53,29 @@
                 "contact",
                 "group"
             ],
-            "function":[
-                {"name":"new message"},
-                {"name":"copy"},
-                {"name":"translate"},
-                {
-                    "name":"more",
+                {"name":"one conversation",
+                 "function":[
+                    {"name":"contacts"},
+                    {"name":"back"},
+                    {"name":"message"},
+                    {"name":"copy"},
+                    {"name":"translate"},
+                    {"name":"record audio"},
+                    {"name":"Facetime"},
+                
+                    {"name":"more",
                     "function":[
-                        "select",
-                        "delete",
-                        "transmit",
-                        "cancel"
-                    ]
-                },
+                       {"name": "select"},
+                       {"name":"delete"},
+                       {"name": "transmit"},
+                       {"name":"cancel"},
+                     ]
+                    },
                 {"name":"reaction"},
                 {"name":"check message sent time"}
-            ]
+                 ]
+                 }
         }
+        
     ]
 }
