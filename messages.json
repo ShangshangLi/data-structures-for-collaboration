@@ -1,0 +1,63 @@
+{
+    "function":[
+        {
+            "name":"search",
+            "type":[
+                {"name":"contacts"},
+                {"name":"conversations"},
+                {"name":"links"},
+                {"name":"photos"}
+            ]
+        },
+        {
+            "name":"edit",
+            "function":[
+                {"name":"select messages"},
+                {"name":"edit pins"},
+                {"name":"edit name and photo"}
+            ]
+        },
+        {
+            "name":"new message",
+            "function":[
+                {"name":"to"},
+                {
+                    "name":"message",
+                    "type":[
+                        "text",
+                        "camera",
+                        "photo",
+                        "video",
+                        "stickers",
+                        "other apps functions",
+                        "scan text"
+                    ]
+                },
+                {"name":"cancel"}]
+        },
+        {
+            "name":"conversations",
+            "user":[
+                "me",
+                "contact",
+                "group"
+            ],
+            "function":[
+                {"name":"new message"},
+                {"name":"copy"},
+                {"name":"translate"},
+                {
+                    "name":"more",
+                    "function":[
+                        "select",
+                        "delete",
+                        "transmit",
+                        "cancel"
+                    ]
+                },
+                {"name":"reaction"},
+                {"name":"check message sent time"}
+            ]
+        }
+    ]
+}
